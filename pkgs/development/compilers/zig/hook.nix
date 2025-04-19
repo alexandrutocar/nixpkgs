@@ -49,6 +49,7 @@ makeSetupHook {
       [
         "-Dcpu=baseline"
         releaseType
+        "--verbose"
       ];
   };
 

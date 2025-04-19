@@ -8,6 +8,10 @@ function zigSetGlobalCacheDir {
     export ZIG_GLOBAL_CACHE_DIR
 }
 
+function zigSetTermDumb {
+    export TERM=dumb
+}
+
 function zigBuildPhase {
     runHook preBuild
 
@@ -54,7 +58,7 @@ function zigInstallPhase {
 }
 
 # shellcheck disable=SC2154
-addEnvHooks "$targetOffset" zigSetGlobalCacheDir
+addEnvHooks "$targetOffset" zigSetGlobalCacheDir zigSetTermDumb
 
 if [ -z "${dontUseZigBuild-}" ] && [ -z "${buildPhase-}" ]; then
     buildPhase=zigBuildPhase
