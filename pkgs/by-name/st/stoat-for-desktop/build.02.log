@@ -1,0 +1,980 @@
+Running phase: unpackPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking source archive /nix/store/a6wwfz6p0s81xnkk6biljb4ql8yz3z5d-source-patched
+source root is source-patched
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+no configure script, doing nothing
+Executing pnpmConfigHook
+ ERROR  EACCES: permission denied, mkdir '/homeless-shelter/.local/share/pnpm/.tools/pnpm/10.18.1_tmp_1223185'
+For help, run: pnpm help
+Found 'pnpm' with version ''
+Using fetcherVersion: 3
+Configuring pnpm store
+/nix/var/nix/builds/nix-1223087-412004073 /nix/var/nix/builds/nix-1223087-412004073/source-patched
+/nix/var/nix/builds/nix-1223087-412004073/source-patched
+Installing dependencies
+Lockfile is up to date, resolution step is skipped
+Packages: [32m+733[39m
+
+Progress: resolved [96m0[39m, reused [96m1[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m0[39m, reused [96m353[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m0[39m, reused [96m681[39m, downloaded [96m0[39m, added [96m123[39m
+[1AProgress: resolved [96m0[39m, reused [96m681[39m, downloaded [96m0[39m, added [96m302[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m546[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m699[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m731[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m732[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m733[39m
+[1AProgress: resolved [96m0[39m, reused [96m682[39m, downloaded [96m0[39m, added [96m733[39m, done
+Done in 2.1s using pnpm v10.26.1
+Patching scripts
+patching script interpreter paths in node_modules/@babel node_modules/@electron node_modules/@electron-forge node_modules/@esbuild node_modules/@eslint node_modules/@eslint-community node_modules/@gar node_modules/@homebridge node_modules/@humanwhocodes node_modules/@inquirer node_modules/@jridgewell node_modules/@listr2 node_modules/@malept node_modules/@nodelib node_modules/@npmcli node_modules/@rollup node_modules/@rtsao node_modules/@sindresorhus node_modules/@szmarczak node_modules/@tootallnate node_modules/@trivago node_modules/@types node_modules/@typescript-eslint node_modules/@ungap node_modules/@vscode node_modules/@xmldom node_modules/abbrev node_modules/acorn node_modules/acorn-jsx node_modules/agent-base node_modules/agentkeepalive node_modules/aggregate-error node_modules/ajv node_modules/ajv-formats node_modules/ansi-escapes node_modules/ansi-regex node_modules/ansi-styles node_modules/applescript node_modules/argparse node_modules/array-buffer-byte-length node_modules/array-includes node_modules/array-union node_modules/array.prototype.findlastindex node_modules/array.prototype.flat node_modules/array.prototype.flatmap node_modules/arraybuffer.prototype.slice node_modules/async-function node_modules/at-least-node node_modules/atomically node_modules/author-regex node_modules/auto-launch node_modules/available-typed-arrays node_modules/balanced-match node_modules/base64-js node_modules/bindings node_modules/bl node_modules/bluebird node_modules/boolean node_modules/brace-expansion node_modules/braces node_modules/buffer node_modules/buffer-crc32 node_modules/buffer-from node_modules/bufferutil node_modules/cacache node_modules/cacheable-lookup node_modules/cacheable-request node_modules/call-bind node_modules/call-bind-apply-helpers node_modules/call-bound node_modules/callsites node_modules/chalk node_modules/chardet node_modules/chownr node_modules/chrome-trace-event node_modules/clean-stack node_modules/cli-cursor node_modules/cli-spinners node_modules/cli-truncate node_modules/cli-width node_modules/cliui node_modules/clone node_modules/clone-response node_modules/color-convert node_modules/color-name node_modules/colorette node_modules/commander node_modules/compare-version node_modules/concat-map node_modules/conf node_modules/cross-dirname node_modules/cross-spawn node_modules/cross-zip node_modules/data-view-buffer node_modules/data-view-byte-length node_modules/data-view-byte-offset node_modules/debounce-fn node_modules/debug node_modules/decompress-response node_modules/deep-is node_modules/defaults node_modules/defer-to-connect node_modules/define-data-property node_modules/define-properties node_modules/detect-libc node_modules/detect-node node_modules/dir-compare node_modules/dir-glob node_modules/discord-rpc node_modules/doctrine node_modules/dot-prop node_modules/dunder-proto node_modules/duplexer node_modules/eastasianwidth node_modules/electron node_modules/electron-installer-common node_modules/electron-installer-debian node_modules/electron-squirrel-startup node_modules/electron-store node_modules/electron-windows-store node_modules/electron-winstaller node_modules/emoji-regex node_modules/encoding node_modules/end-of-stream node_modules/env-paths node_modules/err-code node_modules/error-ex node_modules/es-abstract node_modules/es-define-property node_modules/es-errors node_modules/es-object-atoms node_modules/es-set-tostringtag node_modules/es-shim-unscopables node_modules/es-to-primitive node_modules/es6-error node_modules/esbuild node_modules/escalade node_modules/escape-string-regexp node_modules/eslint node_modules/eslint-import-resolver-node node_modules/eslint-module-utils node_modules/eslint-plugin-import node_modules/eslint-scope node_modules/eslint-visitor-keys node_modules/espree node_modules/esquery node_modules/esrecurse node_modules/estraverse node_modules/esutils node_modules/event-stream node_modules/eventemitter3 node_modules/execa node_modules/exponential-backoff node_modules/external-editor node_modules/extract-zip node_modules/fast-deep-equal node_modules/fast-glob node_modules/fast-json-stable-stringify node_modules/fast-levenshtein node_modules/fast-uri node_modules/fastq node_modules/fd-slicer node_modules/figures node_modules/file-entry-cache node_modules/file-uri-to-path node_modules/filename-reserved-regex node_modules/filenamify node_modules/fill-range node_modules/find-up node_modules/flat-cache node_modules/flatted node_modules/flora-colossus node_modules/for-each node_modules/from node_modules/fs-extra node_modules/fs-minipass node_modules/fs.realpath node_modules/function-bind node_modules/function.prototype.name node_modules/functions-have-names node_modules/galactus node_modules/gar node_modules/get-caller-file node_modules/get-folder-size node_modules/get-intrinsic node_modules/get-package-info node_modules/get-proto node_modules/get-stream node_modules/get-symbol-description node_modules/glob node_modules/glob-parent node_modules/global-agent node_modules/global-dirs node_modules/globals node_modules/globalthis node_modules/globby node_modules/gopd node_modules/got node_modules/graceful-fs node_modules/graphemer node_modules/has-bigints node_modules/has-flag node_modules/has-property-descriptors node_modules/has-proto node_modules/has-symbols node_modules/has-tostringtag node_modules/hasown node_modules/hexy node_modules/hosted-git-info node_modules/http-cache-semantics node_modules/http-proxy-agent node_modules/http2-wrapper node_modules/https-proxy-agent node_modules/humanize-ms node_modules/iconv-lite node_modules/ieee754 node_modules/ignore node_modules/import-fresh node_modules/imurmurhash node_modules/indent-string node_modules/infer-owner node_modules/inflight node_modules/inherits node_modules/ini node_modules/inquirer node_modules/internal-slot node_modules/interpret node_modules/ip-address node_modules/is-array-buffer node_modules/is-arrayish node_modules/is-async-function node_modules/is-bigint node_modules/is-boolean-object node_modules/is-callable node_modules/is-core-module node_modules/is-data-view node_modules/is-date-object node_modules/is-extglob node_modules/is-finalizationregistry node_modules/is-fullwidth-code-point node_modules/is-generator-function node_modules/is-glob node_modules/is-interactive node_modules/is-lambda node_modules/is-map node_modules/is-negative-zero node_modules/is-number node_modules/is-number-object node_modules/is-path-inside node_modules/is-regex node_modules/is-set node_modules/is-shared-array-buffer node_modules/is-stream node_modules/is-string node_modules/is-symbol node_modules/is-typed-array node_modules/is-unicode-supported node_modules/is-weakmap node_modules/is-weakref node_modules/is-weakset node_modules/isarray node_modules/isbinaryfile node_modules/isexe node_modules/javascript-natural-sort node_modules/jiti node_modules/js-tokens node_modules/js-yaml node_modules/jsesc node_modules/json-buffer node_modules/json-schema-traverse node_modules/json-schema-typed node_modules/json-stable-stringify-without-jsonify node_modules/json-stringify-safe node_modules/json5 node_modules/jsonfile node_modules/junk node_modules/keyv node_modules/levn node_modules/listr2 node_modules/load-json-file node_modules/locate-path node_modules/lodash node_modules/lodash.defaults node_modules/lodash.get node_modules/lodash.merge node_modules/log-symbols node_modules/log-update node_modules/long node_modules/lowercase-keys node_modules/lru-cache node_modules/make-fetch-happen node_modules/map-age-cleaner node_modules/map-stream node_modules/matcher node_modules/math-intrinsics node_modules/mem node_modules/merge2 node_modules/micromatch node_modules/mimic-fn node_modules/mimic-function node_modules/mimic-response node_modules/minimatch node_modules/minimist node_modules/minipass node_modules/minipass-collect node_modules/minipass-fetch node_modules/minipass-flush node_modules/minipass-pipeline node_modules/minipass-sized node_modules/minizlib node_modules/mkdirp node_modules/ms node_modules/multiline node_modules/mute-stream node_modules/nanoid node_modules/natural-compare node_modules/natural-compare-lite node_modules/negotiator node_modules/nice-try node_modules/node-abi node_modules/node-addon-api node_modules/node-api-version node_modules/node-fetch node_modules/node-gyp-build node_modules/nopt node_modules/normalize-package-data node_modules/normalize-url node_modules/npm-run-path node_modules/object-inspect node_modules/object-keys node_modules/object.assign node_modules/object.fromentries node_modules/object.groupby node_modules/object.values node_modules/once node_modules/onetime node_modules/optionator node_modules/ora node_modules/os-tmpdir node_modules/own-keys node_modules/p-cancelable node_modules/p-defer node_modules/p-finally node_modules/p-is-promise node_modules/p-limit node_modules/p-locate node_modules/p-map node_modules/p-try node_modules/parent-module node_modules/parse-author node_modules/parse-json node_modules/path-exists node_modules/path-is-absolute node_modules/path-key node_modules/path-parse node_modules/path-type node_modules/pause-stream node_modules/pe-library node_modules/pend node_modules/picocolors node_modules/picomatch node_modules/pify node_modules/plist node_modules/possible-typed-array-names node_modules/postcss node_modules/postject node_modules/prelude-ls node_modules/prettier node_modules/proc-log node_modules/progress node_modules/promise-inflight node_modules/promise-retry node_modules/pump node_modules/punycode node_modules/queue-microtask node_modules/quick-lru node_modules/read-binary-file-arch node_modules/read-pkg node_modules/read-pkg-up node_modules/readable-stream node_modules/rechoir node_modules/reflect.getprototypeof node_modules/regexp.prototype.flags node_modules/register-scheme node_modules/require-directory node_modules/require-from-string node_modules/resedit node_modules/resolve node_modules/resolve-alpn node_modules/resolve-from node_modules/responselike node_modules/restore-cursor node_modules/retry node_modules/reusify node_modules/rfdc node_modules/rimraf node_modules/roarr node_modules/rollup node_modules/run-async node_modules/run-parallel node_modules/rxjs node_modules/safe-array-concat node_modules/safe-buffer node_modules/safe-push-apply node_modules/safe-regex-test node_modules/safer-buffer node_modules/sax node_modules/semver node_modules/semver-compare node_modules/serialize-error node_modules/set-function-length node_modules/set-function-name node_modules/set-proto node_modules/shebang-command node_modules/shebang-regex node_modules/side-channel node_modules/side-channel-list node_modules/side-channel-map node_modules/side-channel-weakmap node_modules/signal-exit node_modules/slash node_modules/slice-ansi node_modules/smart-buffer node_modules/socks node_modules/socks-proxy-agent node_modules/source-map node_modules/source-map-js node_modules/source-map-support node_modules/spdx-correct node_modules/spdx-exceptions node_modules/spdx-expression-parse node_modules/spdx-license-ids node_modules/split node_modules/sprintf-js node_modules/ssri node_modules/stop-iteration-iterator node_modules/stream-combiner node_modules/string-width node_modules/string.prototype.trim node_modules/string.prototype.trimend node_modules/string.prototype.trimstart node_modules/string_decoder node_modules/strip-ansi node_modules/strip-bom node_modules/strip-eof node_modules/strip-indent node_modules/strip-json-comments node_modules/strip-outer node_modules/stubborn-fs node_modules/sumchecker node_modules/supports-color node_modules/supports-preserve-symlinks-flag node_modules/tar node_modules/temp node_modules/text-table node_modules/through node_modules/tiny-each-async node_modules/tmp node_modules/tmp-promise node_modules/to-regex-range node_modules/tr46 node_modules/trim-repeated node_modules/tsconfig-paths node_modules/tslib node_modules/tsutils node_modules/type-check node_modules/type-fest node_modules/typed-array-buffer node_modules/typed-array-byte-length node_modules/typed-array-byte-offset node_modules/typed-array-length node_modules/typescript node_modules/uint8array-extras node_modules/unbox-primitive node_modules/undici-types node_modules/unique-filename node_modules/unique-slug node_modules/universalify node_modules/untildify node_modules/uri-js node_modules/username node_modules/utf-8-validate node_modules/util-deprecate node_modules/validate-npm-package-license node_modules/vite node_modules/wcwidth node_modules/webidl-conversions node_modules/whatwg-url node_modules/when-exit node_modules/which node_modules/which-boxed-primitive node_modules/which-builtin-type node_modules/which-collection node_modules/which-typed-array node_modules/winreg node_modules/word-wrap node_modules/wrap-ansi node_modules/wrappy node_modules/ws node_modules/xml2js node_modules/xmlbuilder node_modules/y18n node_modules/yallist node_modules/yargs node_modules/yargs-parser node_modules/yauzl node_modules/yocto-queue node_modules/yoctocolors-cjs node_modules/.bin node_modules/.modules.yaml node_modules/.pnpm node_modules/.pnpm-workspace-state-v1.json
+node_modules/@babel/parser/bin/babel-parser.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/windows-sign/bin/electron-windows-sign.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/asar/bin/asar.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/packager/bin/electron-packager.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/osx-sign/bin/electron-osx-sign.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/osx-sign/bin/electron-osx-flat.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/rebuild/lib/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/fuses/dist/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/node-gyp/gyp/gyp: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/@electron/node-gyp/bin/node-gyp.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron/get/node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron-forge/cli/dist/electron-forge.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@electron-forge/cli/script/vscode.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/@electron-forge/cli/src/electron-forge.ts: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@homebridge/dbus-native/bin/dbus2js.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/@malept/electron-installer-flatpak/bin/electron-installer-flatpak.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/acorn/bin/acorn: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/auto-launch/node_modules/mkdirp/bin/cmd.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/electron/node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/electron/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/electron-installer-debian/src/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/electron-windows-store/bin/windowsstore.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/eslint/bin/eslint.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/eslint-plugin-import/node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/execa/node_modules/semver/bin/semver: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/execa/node_modules/which/bin/which: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/extract-zip/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/get-folder-size/bin/get-folder-size: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/hexy/bin/hexy_cmd.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/jiti/lib/jiti-cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/js-yaml/bin/js-yaml.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/jsesc/bin/jsesc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/json5/lib/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/mkdirp/bin/cmd.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/nanoid/bin/nanoid.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/node-addon-api/tools/conversion.js: interpreter directive changed from "#! /usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/node-gyp-build/build-test.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/node-gyp-build/optional.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/node-gyp-build/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/nopt/bin/nopt.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/normalize-package-data/node_modules/semver/bin/semver: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/postject/dist/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/prettier/bin/prettier.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/read-binary-file-arch/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/resolve/bin/resolve: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/rimraf/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/rollup/dist/bin/rollup: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/temp/node_modules/mkdirp/bin/cmd.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/temp/node_modules/rimraf/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/typescript/bin/tsc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/typescript/bin/tsserver: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/vite/bin/vite.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/which/bin/node-which: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+Finished pnpmConfigHook
+Running phase: buildPhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+
+> stoat-desktop@1.1.12 package /nix/var/nix/builds/nix-1223087-412004073/source-patched
+> electron-forge package
+
+[?25l[2
+  m[2
+  2mh
+  e
+  c
+  k
+  i
+  n
+  g
+  y
+  o
+  u
+  r
+  s
+  y
+  s
+  t
+  e
+  m
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[3
+  3
+  m[3
+  9me
+  c
+  k
+  i
+  n
+  g
+  y
+  o
+  u
+  r
+  s
+  y
+  s
+  t
+  e
+  m
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[3
+  3
+  m[3
+  9m[2
+    m[2
+    mn
+    a
+    g
+    e
+    r
+    v
+    e
+    r
+    s
+    i
+    o
+    n
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[3
+  3
+  m[3
+  9m[3
+    m[3
+    ma
+    g
+    e
+    r
+    v
+    e
+    r
+    s
+    i
+    o
+    n
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[3
+  3
+  m[3
+  9m[3
+    m[3
+    m n
+    p
+    m
+    @
+    1
+    0
+    .
+    2
+    6
+    .
+    1
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[3
+  2
+  m[3
+  9me
+  c
+  k
+  i
+  n
+  g
+  y
+  o
+  u
+  r
+  s
+  y
+  s
+  t
+  e
+  m
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G  
+  [
+  3
+  2
+  m
+  ✔
+  
+  [
+  3
+  9m
+  C
+  h
+  e
+  c
+  k
+  i
+  n
+  g
+  y
+  o
+  u
+  r
+  s
+  y
+  s
+  t
+  e
+  m
+[?25h[?25l[2
+  m[2
+  2m
+  c
+  k
+  a
+  g
+  e
+  a
+  p
+  p
+  l
+  i
+  c
+  a
+  t
+  i
+  o
+  n
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[2
+  m[2
+  2m[2
+  m[2
+  2m a
+  g
+  i
+  n
+  g
+  h
+  o
+  o
+  k
+  s
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[2
+  m[2
+  2m[2
+  m[2
+  2m[2
+  m[2
+  2m  i
+  o
+  n
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[2K[G  
+  [
+  3
+  2
+  m
+  ✔
+  
+  [
+  3
+  9m
+  P
+  r
+  e
+  p
+  a
+  r
+  i
+  n
+  g
+  t
+  o
+  p
+  a
+  c
+  k
+  a
+  g
+  e
+  a
+  p
+  p
+  l
+  i
+  c
+  a
+  t
+  i
+  o
+  n
+  
+  [
+  3
+  2
+  m
+  ✔
+  
+  [
+  3
+  9m
+  R
+  u
+  n
+  n
+  i
+  n
+  g
+  p
+  a
+  c
+  k
+  a
+  g
+  i
+  n
+  g
+  h
+  o
+  o
+  k
+  s
+    
+    [
+    3
+    2
+    m
+    ✔
+    
+    [
+    3
+    9m
+    R
+    u
+    n
+    n
+    i
+    n
+    g
+    
+    [
+    3
+    3
+    m
+    g
+    e
+    n
+    e
+    r
+    a
+    t
+    e
+    A
+    s
+    s
+    e
+    t
+    s
+    
+    [
+    3
+    9m
+    h
+    o
+    o
+    k
+    
+    [
+    3
+    2
+    m
+    ✔
+    
+    [
+    3
+    9m
+    R
+    u
+    n
+    n
+    i
+    n
+    g
+    
+    [
+    3
+    3
+    m
+    p
+    r
+    e
+    P
+    a
+    c
+    k
+    a
+    g
+    e
+    
+    [
+    3
+    9m
+    h
+    o
+    o
+    k
+      
+      [
+      3
+      2
+      m
+      ✔
+      
+      [
+      3
+      9m
+      
+      [
+      3
+      6
+      m
+      [
+      p
+      l
+      u
+      g
+      i
+      n
+      -
+      v
+      i
+      t
+      e
+      ]
+      
+      [
+      3
+      9m
+      B
+      u
+      i
+      l
+      d
+      i
+      n
+      g
+      p
+      r
+      o
+      d
+      u
+      c
+      t
+      i
+      o
+      n
+      V
+      i
+      t
+      e
+      b
+      u
+      n
+      d
+      l
+      e
+      s
+        
+        [
+        3
+        2
+        m
+        ✔
+        
+        [
+        3
+        9m
+        B
+        u
+        i
+        l
+        d
+        i
+        n
+        g
+        m
+        a
+        i
+        n
+        a
+        n
+        d
+        p
+        r
+        e
+        l
+        o
+        a
+        d
+        t
+        a
+        r
+        g
+        e
+        t
+        s
+        .
+        .
+        .
+          
+          [
+          3
+          2
+          m
+          ✔
+          
+          [
+          3
+          9m
+          B
+          u
+          i
+          l
+          t
+          t
+          a
+          r
+          g
+          e
+          t
+          
+          [
+          2
+          m
+          s
+          r
+          c
+          /
+          m
+          a
+          i
+          n
+          .
+          t
+          s
+          
+          [
+          2
+          2m
+          
+          [
+          3
+          2
+          m
+          ✔
+          
+          [
+          3
+          9m
+          B
+          u
+          i
+          l
+          t
+          t
+          a
+          r
+          g
+          e
+          t
+          
+          [
+          2
+          m
+          s
+          r
+          c
+          /
+          p
+          r
+          e
+          l
+          o
+          a
+          d
+          .
+          t
+          s
+          
+          [
+          2
+          2m
+        
+        [
+        3
+        2
+        m
+        ✔
+        
+        [
+        3
+        9m
+        B
+        u
+        i
+        l
+        d
+        i
+        n
+        g
+        r
+        e
+        n
+        d
+        e
+        r
+        e
+        r
+        t
+        a
+        r
+        g
+        e
+        t
+        s
+        .
+        .
+        .
+  
+  [
+  3
+  1
+  m
+  ❯
+  
+  [
+  3
+  9m
+  P
+  a
+  c
+  k
+  a
+  g
+  i
+  n
+  g
+  a
+  p
+  p
+  l
+  i
+  c
+  a
+  t
+  i
+  o
+  n
+    
+    [
+    3
+    1
+    m
+    ❯
+    
+    [
+    3
+    9m
+    P
+    a
+    c
+    k
+    a
+    g
+    i
+    n
+    g
+    f
+    o
+    r
+    
+    [
+    3
+    6
+    m
+    x
+    6
+    4
+    
+    [
+    3
+    9m
+    o
+    n
+    
+    [
+    3
+    6
+    m
+    l
+    i
+    n
+    u
+    x
+    
+    [
+    3
+    9m
+      
+      [
+      3
+      1
+      m
+      ✖
+      
+      [
+      3
+      9m
+      C
+      o
+      p
+      y
+      i
+      n
+      g
+      f
+      i
+      l
+      e
+      s
+        ›
+        u
+        n
+        a
+        b
+        l
+        e
+        t
+        o
+        g
+        e
+        t
+        l
+        o
+        c
+        a
+        l
+        i
+        s
+        s
+        u
+        e
+        r
+        c
+        e
+        r
+        t
+        i
+        f
+        i
+        c
+        a
+        t
+        e
+      
+      [
+      3
+      1
+      m
+      ✖
+      
+      [
+      3
+      9m
+      P
+      r
+      e
+      p
+      a
+      r
+      i
+      n
+      g
+      n
+      a
+      t
+      i
+      v
+      e
+      d
+      e
+      p
+      e
+      n
+      d
+      e
+      n
+      c
+      i
+      e
+      s
+        ›
+        u
+        n
+        a
+        b
+        l
+        e
+        t
+        o
+        g
+        e
+        t
+        l
+        o
+        c
+        a
+        l
+        i
+        s
+        s
+        u
+        e
+        r
+        c
+        e
+        r
+        t
+        i
+        f
+        i
+        c
+        a
+        t
+        e
+      
+      [
+      3
+      1
+      m
+      ✖
+      
+      [
+      3
+      9m
+      F
+      i
+      n
+      a
+      l
+      i
+      z
+      i
+      n
+      g
+      p
+      a
+      c
+      k
+      a
+      g
+      e
+        ›
+        u
+        n
+        a
+        b
+        l
+        e
+        t
+        o
+        g
+        e
+        t
+        l
+        o
+        c
+        a
+        l
+        i
+        s
+        s
+        u
+        e
+        r
+        c
+        e
+        r
+        t
+        i
+        f
+        i
+        c
+        a
+        t
+        e
+  
+  [
+  3
+  1
+  m
+  ◼
+  
+  [
+  3
+  9m
+  R
+  u
+  n
+  n
+  i
+  n
+  g
+  
+  [
+  3
+  3
+  m
+  p
+  o
+  s
+  t
+  P
+  a
+  c
+  k
+  a
+  g
+  e
+  
+  [
+  3
+  9m
+  h
+  o
+  o
+  k
+[?25h[31m[39m
+[31mAn unhandled rejection has occurred inside Forge:[39m
+[31mRequestError: unable to get local issuer certificate[39m
+[31mat ClientRequest.<anonymous> (/nix/var/nix/builds/nix-1223087-412004073/source-patched/node_modules/got/dist/source/core/index.js:970:111)[39m
+[31m    at Object.onceWrapper (node:events:623:26)[39m
+[31m    at ClientRequest.emit (node:events:520:35)[39m
+[31m    at ClientRequest.emit (node:domain:489:12)[39m
+[31m    at origin.emit (/nix/var/nix/builds/nix-1223087-412004073/source-patched/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)[39m
+[31m    at emitErrorEvent (node:_http_client:108:11)[39m
+[31m    at TLSSocket.socketErrorListener (node:_http_client:575:5)[39m
+[31m    at TLSSocket.emit (node:events:508:28)[39m
+[31m    at TLSSocket.emit (node:domain:489:12)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)[39m
+[31m    at TLSSocket.onConnectSecure (node:_tls_wrap:1631:34)[39m
+[31m    at TLSSocket.emit (node:events:508:28)[39m
+[31m    at TLSSocket.emit (node:domain:489:12)[39m
+[31m    at TLSSocket._finishInit (node:_tls_wrap:1077:8)[39m
+[31m    at ssl.onhandshakedone (node:_tls_wrap:863:12)[39m
+[?25h[?25h[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
