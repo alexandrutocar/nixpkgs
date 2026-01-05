@@ -1,0 +1,706 @@
+Running phase: unpackPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking source archive /nix/store/6r12jsvflnhp8l772azhmn707p83fnx1-source
+source root is source
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+no configure script, doing nothing
+Executing pnpmConfigHook
+ ERROR  EACCES: permission denied, mkdir '/homeless-shelter/.local/share/pnpm/.tools/pnpm/10.10.0_tmp_37'
+For help, run: pnpm help
+Found 'pnpm' with version ''
+Using fetcherVersion: 3
+Configuring pnpm store
+/build /build/source
+/build/source
+Installing dependencies
+Scope: all 7 workspace projects
+Lockfile is up to date, resolution step is skipped
+Progress: resolved [96m1[39m, reused [96m0[39m, downloaded [96m0[39m, added [96m0[39m
+[1APackages: [32m+1465[39m[0K
+
+Progress: resolved [96m1[39m, reused [96m0[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m0[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m18[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m27[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m31[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m32[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m52[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m244[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m373[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m546[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m667[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m789[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m975[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1276[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1355[39m, downloaded [96m0[39m, added [96m0[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1450[39m, downloaded [96m0[39m, added [96m29[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1453[39m, downloaded [96m0[39m, added [96m81[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1454[39m, downloaded [96m0[39m, added [96m195[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1455[39m, downloaded [96m0[39m, added [96m331[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1455[39m, downloaded [96m0[39m, added [96m406[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m479[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m602[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m636[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m653[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m670[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m772[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m861[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m878[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m879[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m883[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m909[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m1067[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1456[39m, downloaded [96m0[39m, added [96m1215[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1338[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1379[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1456[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1459[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1460[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1461[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1462[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1463[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1464[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1465[39m
+[1AProgress: resolved [96m1465[39m, reused [96m1457[39m, downloaded [96m0[39m, added [96m1465[39m, done
+
+[96mdevDependencies:[39m
+[32m+[39m @eslint/js [90m9.39.1[39m
+[32m+[39m @pandabox/prettier-plugin [90m0.1.3[39m
+[32m+[39m eslint [90m9.26.0[39m
+[32m+[39m eslint-plugin-prettier [90m5.4.0[39m
+[32m+[39m eslint-plugin-solid [90m0.14.5[39m
+[32m+[39m prettier [90m3.5.3[39m
+[32m+[39m prettier-plugin-organize-imports [90m4.3.0[39m
+[32m+[39m typescript-eslint [90m8.32.0[39m
+
+Done in 18.7s using pnpm v10.26.1
+Patching scripts
+patching script interpreter paths in node_modules/@eslint node_modules/@pandabox node_modules/eslint node_modules/eslint-plugin-prettier node_modules/eslint-plugin-solid node_modules/prettier node_modules/prettier-plugin-organize-imports node_modules/typescript-eslint node_modules/.bin node_modules/.modules.yaml node_modules/.pnpm node_modules/.pnpm-workspace-state-v1.json
+node_modules/.bin/prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mlly@1.7.4/node_modules/mlly/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite-plugin-solid@2.11.6_@testing-library+jest-dom@6.6.3_solid-js@1.9.6_vite@5.4.19_@ty_a3a73efe94031814a0cb38700222e798/node_modules/vite-plugin-solid/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-svgo@7.1.0_postcss@8.5.3/node_modules/postcss-svgo/node_modules/.bin/svgo: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/espree@10.3.0/node_modules/espree/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.25.3/node_modules/update-browserslist-db/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.25.3/node_modules/update-browserslist-db/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/caniuse-api@3.0.0/node_modules/caniuse-api/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rollup@3.29.5/node_modules/rollup/dist/bin/rollup: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/react@18.3.1/node_modules/react/node_modules/.bin/loose-envify: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/flat-cache@3.2.0/node_modules/flat-cache/node_modules/.bin/rimraf: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup-preset-solid@2.2.0_esbuild@0.18.20_solid-js@1.9.6_tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3_/node_modules/tsup-preset-solid/node_modules/.bin/tsup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup-preset-solid@2.2.0_esbuild@0.18.20_solid-js@1.9.6_tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3_/node_modules/tsup-preset-solid/node_modules/.bin/tsup-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild@0.20.2/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@typescript-eslint+parser@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+parser@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+parser@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/bin/js-yaml.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@8.32.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@8.32.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@8.32.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/jsesc@3.0.2/node_modules/jsesc/bin/jsesc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/ts-api-utils@2.1.0_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/ts-api-utils@2.1.0_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier@2.8.3/node_modules/prettier/bin-prettier.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/is-inside-container@1.0.0/node_modules/is-inside-container/node_modules/.bin/is-docker: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/is-inside-container@1.0.0/node_modules/is-inside-container/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint-plugin-solid@0.14.5_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/eslint-plugin-solid/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-plugin-solid@0.14.5_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/eslint-plugin-solid/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-plugin-solid@0.14.5_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/eslint-plugin-solid/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vitefu@1.0.6_vite@4.5.14_@types+node@20.17.46_lightningcss@1.25.1_terser@5.43.1_/node_modules/vitefu/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/typedoc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tldts: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/json5: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/js-yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/sdp-verify: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/resolve: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/autoprefixer: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/is-inside-container: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/mkdirp: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tsconfck: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/terser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/jsesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/ulid: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/mkdist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/node-which: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/sucrase: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/chroma: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/is-docker: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/regjsparser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/markdown-it: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/rimraf: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/untyped: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/eslint-config-prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/sucrase-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/katex: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tsup-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/chromatic: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/conc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/jake: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/svgo: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/detect-libc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/update-browserslist-db: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/chromatic-cli: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/pandacss: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/vitest: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/loose-envify: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tree-kill: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/playwright-core: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/playwright: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/pseudolocale: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/vite-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/ejs: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/nanoid: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/why-is-node-running: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/tsup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/panda: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/concurrently: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/lz-string: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/unbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/cssesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/node_modules/.bin/lingui: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rollup@2.79.2/node_modules/rollup/dist/bin/rollup: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@ts-morph+common@0.22.0/node_modules/@ts-morph/common/node_modules/.bin/mkdirp: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/node_modules/.bin/node-which: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/pseudolocale@2.1.0/node_modules/pseudolocale/dist/cli.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/pseudolocale@2.1.0/node_modules/pseudolocale/dist/cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/yaml@2.7.1/node_modules/yaml/bin.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@babel+helper-create-class-features-plugin@7.28.3_@babel+core@7.27.1/node_modules/@babel/helper-create-class-features-plugin/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/semver@6.3.1/node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/untyped@1.5.2/node_modules/untyped/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/untyped@1.5.2/node_modules/untyped/dist/cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/untyped@1.5.2/node_modules/untyped/dist/cli.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/markdown-it@14.1.0/node_modules/markdown-it/bin/markdown-it.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@3.29.5/node_modules/@rollup/plugin-json/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.25.4/node_modules/update-browserslist-db/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.25.4/node_modules/update-browserslist-db/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/acorn@8.15.0/node_modules/acorn/bin/acorn: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite-plugin-inspect@0.8.9_rollup@2.79.2_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/vite-plugin-inspect/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/glob@10.4.5/node_modules/glob/dist/esm/bin.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/postcss-selector-parser@6.1.1/node_modules/postcss-selector-parser/node_modules/.bin/cssesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-load-config@4.0.2_postcss@8.5.3/node_modules/postcss-load-config/node_modules/.bin/yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+traverse@7.28.3/node_modules/@babel/traverse/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/open@10.1.2/node_modules/open/xdg-open: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/open@10.1.2/node_modules/open/node_modules/.bin/is-inside-container: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-terser@0.4.4_rollup@2.79.2/node_modules/@rollup/plugin-terser/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-terser@0.4.4_rollup@2.79.2/node_modules/@rollup/plugin-terser/node_modules/.bin/terser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/svgo@3.3.2/node_modules/svgo/bin/svgo: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/is-wsl@3.1.0/node_modules/is-wsl/node_modules/.bin/is-inside-container: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/playwright@1.52.0/node_modules/playwright/node_modules/.bin/playwright-core: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/playwright@1.52.0/node_modules/playwright/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/bundle-n-require@1.1.1/node_modules/bundle-n-require/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite-node@2.1.9_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite-node/vite-node.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite-node@2.1.9_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite-node/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tough-cookie@5.1.2/node_modules/tough-cookie/node_modules/.bin/tldts: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-alias@5.1.1_rollup@3.29.5/node_modules/@rollup/plugin-alias/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@sveltejs+acorn-typescript@1.0.5_acorn@8.15.0/node_modules/@sveltejs/acorn-typescript/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+utils@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+utils@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/browserslist@4.25.4/node_modules/browserslist/node_modules/.bin/update-browserslist-db: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/browserslist@4.25.4/node_modules/browserslist/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite@4.5.14_@types+node@20.17.46_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@4.5.14_@types+node@20.17.46_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/terser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@4.5.14_@types+node@20.17.46_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@4.5.14_@types+node@20.17.46_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/bin/vite.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@vitest+coverage-v8@2.1.9_vitest@2.1.9_@types+node@24.7.1_jsdom@25.0.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/@vitest/coverage-v8/node_modules/.bin/vitest: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/concurrently@8.2.2/node_modules/concurrently/dist/bin/concurrently.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/concurrently@8.2.2/node_modules/concurrently/node_modules/.bin/tree-kill: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rimraf@3.0.2/node_modules/rimraf/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/lnk@1.1.0/node_modules/lnk/node_modules/.bin/mkdirp: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/lnk@1.1.0/node_modules/lnk/node_modules/.bin/rimraf: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/cosmiconfig@8.3.6_typescript@5.8.3/node_modules/cosmiconfig/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/cosmiconfig@8.3.6_typescript@5.8.3/node_modules/cosmiconfig/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/cosmiconfig@8.3.6_typescript@5.8.3/node_modules/cosmiconfig/node_modules/.bin/js-yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/lz-string@1.5.0/node_modules/lz-string/bin/bin.js: interpreter directive changed from "#! /usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/nanoid@3.3.11/node_modules/nanoid/bin/nanoid.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/ts-evaluator@1.2.0_jsdom@25.0.1_typescript@5.8.3/node_modules/ts-evaluator/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/ts-evaluator@1.2.0_jsdom@25.0.1_typescript@5.8.3/node_modules/ts-evaluator/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-merge-rules@7.0.2_postcss@8.4.47/node_modules/postcss-merge-rules/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-node-resolve@15.3.1_rollup@2.79.2/node_modules/@rollup/plugin-node-resolve/node_modules/.bin/resolve: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-node-resolve@15.3.1_rollup@2.79.2/node_modules/@rollup/plugin-node-resolve/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@testing-library+dom@10.4.0/node_modules/@testing-library/dom/node_modules/.bin/lz-string: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@6.21.0_eslint@8.57.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-reduce-initial@7.0.4_postcss@8.5.3/node_modules/postcss-reduce-initial/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@vue+compiler-core@3.4.19/node_modules/@vue/compiler-core/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/stylehacks@7.0.6_postcss@8.5.3/node_modules/stylehacks/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/jake@10.9.4/node_modules/jake/bin/bash_completion.sh: interpreter directive changed from "#!/bin/bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/jake@10.9.4/node_modules/jake/bin/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/workbox-build@7.1.1_@types+babel__core@7.20.5/node_modules/workbox-build/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+generator@7.28.3/node_modules/@babel/generator/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+generator@7.28.3/node_modules/@babel/generator/node_modules/.bin/jsesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-convert-values@7.0.7_postcss@8.5.3/node_modules/postcss-convert-values/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-replace@2.4.2_rollup@2.79.2/node_modules/@rollup/plugin-replace/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/core-js-compat@3.45.1/node_modules/core-js-compat/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/jiti@1.21.7/node_modules/jiti/bin/jiti.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@pandacss+core@0.46.1/node_modules/@pandacss/core/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-plugin-eslint-comments@3.2.0_eslint@8.57.1/node_modules/eslint-plugin-eslint-comments/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild@0.25.4/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/untyped: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/mkdist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/unbuild@2.0.0_typescript@5.8.3/node_modules/unbuild/dist/cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/magicast@0.3.5/node_modules/magicast/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@trivago+prettier-plugin-sort-imports@5.2.2_@vue+compiler-sfc@3.4.19_prettier@3.5.3_svelte@5.38.6/node_modules/@trivago/prettier-plugin-sort-imports/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@trivago+prettier-plugin-sort-imports@5.2.2_@vue+compiler-sfc@3.4.19_prettier@3.5.3_svelte@5.38.6/node_modules/@trivago/prettier-plugin-sort-imports/node_modules/.bin/prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-normalize-unicode@7.0.4_postcss@8.5.3/node_modules/postcss-normalize-unicode/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-node-resolve@15.3.1_rollup@3.29.5/node_modules/@rollup/plugin-node-resolve/node_modules/.bin/resolve: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-node-resolve@15.3.1_rollup@3.29.5/node_modules/@rollup/plugin-node-resolve/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier@3.0.0/node_modules/prettier/bin/prettier.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/cssnano-preset-default@7.0.9_postcss@8.5.3/node_modules/cssnano-preset-default/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/babel-plugin-polyfill-corejs2@0.4.14_@babel+core@7.27.1/node_modules/babel-plugin-polyfill-corejs2/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vitest@2.1.9_@types+node@24.7.1_jsdom@25.0.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vitest/vitest.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vitest@2.1.9_@types+node@24.7.1_jsdom@25.0.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vitest/node_modules/.bin/why-is-node-running: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vitest@2.1.9_@types+node@24.7.1_jsdom@25.0.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vitest/node_modules/.bin/vite-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vitest@2.1.9_@types+node@24.7.1_jsdom@25.0.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vitest/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/json5@2.2.3/node_modules/json5/lib/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@rollup+pluginutils@3.1.0_rollup@2.79.2/node_modules/@rollup/pluginutils/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.32.0_@typescript-eslint+parser@8.32.0_eslint@9.26.0__bccae62dc4dd34343cb50b97b106724a/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.32.0_@typescript-eslint+parser@8.32.0_eslint@9.26.0__bccae62dc4dd34343cb50b97b106724a/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.32.0_@typescript-eslint+parser@8.32.0_eslint@9.26.0__bccae62dc4dd34343cb50b97b106724a/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/make-dir@4.0.0/node_modules/make-dir/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild-plugin-solid@0.5.0_esbuild@0.18.20_solid-js@1.9.6/node_modules/esbuild-plugin-solid/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-minify-selectors@7.0.5_postcss@8.5.3/node_modules/postcss-minify-selectors/node_modules/.bin/cssesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/bundle-require@4.2.1_esbuild@0.19.12/node_modules/bundle-require/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite-plugin-solid-svg@0.8.1_solid-js@1.9.6_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/vite-plugin-solid-svg/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite-plugin-solid-svg@0.8.1_solid-js@1.9.6_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/vite-plugin-solid-svg/node_modules/.bin/svgo: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/browserslist@4.25.3/node_modules/browserslist/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/browserslist@4.25.3/node_modules/browserslist/node_modules/.bin/update-browserslist-db: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/which@2.0.2/node_modules/which/bin/node-which: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/regexpu-core@6.2.0/node_modules/regexpu-core/node_modules/.bin/regjsparser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-commonjs@25.0.8_rollup@3.29.5/node_modules/@rollup/plugin-commonjs/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+preset-env@7.28.3_@babel+core@7.27.1/node_modules/@babel/preset-env/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss@8.5.3/node_modules/postcss/node_modules/.bin/nanoid: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/chromatic@11.28.2/node_modules/chromatic/dist/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/autoprefixer@10.4.21_postcss@8.5.3/node_modules/autoprefixer/bin/autoprefixer: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/autoprefixer@10.4.21_postcss@8.5.3/node_modules/autoprefixer/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@eslint+eslintrc@3.3.1/node_modules/@eslint/eslintrc/node_modules/.bin/js-yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+generator@7.27.1/node_modules/@babel/generator/node_modules/.bin/jsesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+generator@7.27.1/node_modules/@babel/generator/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/sdp-transform@2.15.0/node_modules/sdp-transform/checker.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/esbuild@0.19.12/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@types+babel__core@7.20.5/node_modules/@types/babel__core/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+helper-define-polyfill-provider@0.6.5_@babel+core@7.27.1/node_modules/@babel/helper-define-polyfill-provider/node_modules/.bin/resolve: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/lightningcss@1.25.1/node_modules/lightningcss/node_modules/.bin/detect-libc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rollup@4.40.2/node_modules/rollup/dist/bin/rollup: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@rollup+pluginutils@5.1.4_rollup@3.29.5/node_modules/@rollup/pluginutils/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/ulid@2.4.0/node_modules/ulid/bin/cli.js: interpreter directive changed from "#! /usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint@8.57.1/node_modules/eslint/bin/eslint.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint@8.57.1/node_modules/eslint/node_modules/.bin/js-yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+parser@7.27.2/node_modules/@babel/parser/bin/babel-parser.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@solid-devtools+transform@0.10.4_solid-js@1.9.6_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/@solid-devtools/transform/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@eslint-community+eslint-utils@4.7.0_eslint@8.57.1/node_modules/@eslint-community/eslint-utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+helper-compilation-targets@7.27.2/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+helper-compilation-targets@7.27.2/node_modules/@babel/helper-compilation-targets/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/svgo@4.0.0/node_modules/svgo/bin/svgo.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.23.3/node_modules/update-browserslist-db/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/update-browserslist-db@1.1.3_browserslist@4.23.3/node_modules/update-browserslist-db/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/ejs@3.1.10/node_modules/ejs/node_modules/.bin/jake: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/ejs@3.1.10/node_modules/ejs/bin/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/why-is-node-running@2.3.0/node_modules/why-is-node-running/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/micromark-extension-math@3.1.0/node_modules/micromark-extension-math/node_modules/.bin/katex: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/node_modules/.bin/js-yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+parser@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+parser@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+parser@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@6.21.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@6.21.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+typescript-estree@6.21.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild@0.18.20/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/sucrase@3.35.0/node_modules/sucrase/bin/sucrase-node: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/sucrase@3.35.0/node_modules/sucrase/bin/sucrase: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/sucrase@3.35.0/node_modules/sucrase/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/livekit-client@2.15.13_@types+dom-mediacapture-record@1.0.22/node_modules/livekit-client/node_modules/.bin/sdp-verify: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@pandacss+config@0.46.1/node_modules/@pandacss/config/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@pandacss+config@0.46.1/node_modules/@pandacss/config/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typedoc@0.27.9_typescript@5.8.3/node_modules/typedoc/node_modules/.bin/markdown-it: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typedoc@0.27.9_typescript@5.8.3/node_modules/typedoc/node_modules/.bin/yaml: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typedoc@0.27.9_typescript@5.8.3/node_modules/typedoc/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typedoc@0.27.9_typescript@5.8.3/node_modules/typedoc/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typedoc@0.27.9_typescript@5.8.3/node_modules/typedoc/bin/typedoc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/detect-libc@1.0.3/node_modules/detect-libc/bin/detect-libc.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/terser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/bin/vite.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/ts-api-utils@1.4.3_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/ts-api-utils@1.4.3_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+core@7.27.1/node_modules/@babel/core/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+core@7.27.1/node_modules/@babel/core/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+core@7.27.1/node_modules/@babel/core/node_modules/.bin/json5: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@vitest+mocker@2.1.9_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/@vitest/mocker/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+conf@5.1.2_typescript@5.8.3/node_modules/@lingui/conf/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdirp@3.0.1/node_modules/mkdirp/dist/cjs/src/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/glob@11.0.2/node_modules/glob/dist/esm/bin.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite-plugin-babel-macros@1.0.6_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/vite-plugin-babel-macros/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rehype-katex@7.0.1/node_modules/rehype-katex/node_modules/.bin/katex: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/espree@9.6.1/node_modules/espree/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui-solid+vite-plugin@5.1.3_typescript@5.8.3_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/@lingui-solid/vite-plugin/node_modules/.bin/lingui: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui-solid+vite-plugin@5.1.3_typescript@5.8.3_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/@lingui-solid/vite-plugin/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tldts@6.1.86/node_modules/tldts/bin/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/tree-kill@1.2.2/node_modules/tree-kill/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/mkdirp@0.5.6/node_modules/mkdirp/bin/cmd.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@rollup+pluginutils@5.1.4_rollup@2.79.2/node_modules/@rollup/pluginutils/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rimraf@6.0.1/node_modules/rimraf/dist/esm/bin.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/rimraf@6.0.1/node_modules/rimraf/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/jiti@2.5.1/node_modules/jiti/lib/jiti-cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/katex@0.16.22/node_modules/katex/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@babel+helper-create-regexp-features-plugin@7.27.1_@babel+core@7.27.1/node_modules/@babel/helper-create-regexp-features-plugin/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@mxssfd+typedoc-theme@1.1.7_typedoc@0.27.9_typescript@5.8.3_/node_modules/@mxssfd/typedoc-theme/node_modules/.bin/typedoc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-replace@5.0.7_rollup@3.29.5/node_modules/@rollup/plugin-replace/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.3.1_typescript@5.8.3/node_modules/@lingui/cli/dist/lingui.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@lingui+cli@5.3.1_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.3.1_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.3.1_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/pseudolocale: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.3.1_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vite-plugin-pwa@0.20.5_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_498b15facdbc5e1d005881f2e56de656/node_modules/vite-plugin-pwa/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@chromatic-com+storybook@2.0.2_react@18.3.1/node_modules/@chromatic-com/storybook/node_modules/.bin/chromatic-cli: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@chromatic-com+storybook@2.0.2_react@18.3.1/node_modules/@chromatic-com/storybook/node_modules/.bin/chroma: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@chromatic-com+storybook@2.0.2_react@18.3.1/node_modules/@chromatic-com/storybook/node_modules/.bin/chromatic: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-config-prettier@8.10.0_eslint@9.26.0_jiti@2.5.1_/node_modules/eslint-config-prettier/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-config-prettier@8.10.0_eslint@9.26.0_jiti@2.5.1_/node_modules/eslint-config-prettier/bin/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/vite-plugin-solid@2.11.6_@testing-library+jest-dom@6.6.3_solid-js@1.9.6_vite@4.5.14_@ty_a2530bf222581c6e0953fd4e9577d652/node_modules/vite-plugin-solid/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-colormin@7.0.4_postcss@8.5.3/node_modules/postcss-colormin/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.1.2_typescript@5.8.3/node_modules/@lingui/cli/dist/lingui.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@lingui+cli@5.1.2_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.1.2_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/pseudolocale: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.1.2_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@lingui+cli@5.1.2_typescript@5.8.3/node_modules/@lingui/cli/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+helper-create-class-features-plugin@7.27.1_@babel+core@7.27.1/node_modules/@babel/helper-create-class-features-plugin/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/regjsparser@0.12.0/node_modules/regjsparser/bin/parser: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/regjsparser@0.12.0/node_modules/regjsparser/node_modules/.bin/jsesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+type-utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@babel+template@7.27.2/node_modules/@babel/template/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@vue+compiler-sfc@3.4.19/node_modules/@vue/compiler-sfc/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/semver@7.7.2/node_modules/semver/bin/semver.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/acorn-jsx@5.3.2_acorn@8.15.0/node_modules/acorn-jsx/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/dist/cli.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/dist/cli.mjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/autoprefixer: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/mkdist@1.6.0_typescript@5.8.3/node_modules/mkdist/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-minify-selectors@7.0.2_postcss@8.4.47/node_modules/postcss-minify-selectors/node_modules/.bin/cssesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+utils@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/loose-envify@1.4.0/node_modules/loose-envify/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/svelte@5.38.6/node_modules/svelte/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/dist/cli-node.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/dist/cli-default.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/sucrase: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/esbuild: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/tree-kill: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/sucrase-node: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsup@7.3.0_@swc+core@1.13.5_postcss@8.5.3_typescript@5.8.3/node_modules/tsup/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typescript@5.8.3/node_modules/typescript/bin/tsc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/typescript@5.8.3/node_modules/typescript/bin/tsserver: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/postcss-selector-parser@7.1.0/node_modules/postcss-selector-parser/node_modules/.bin/cssesc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/is-docker@3.0.0/node_modules/is-docker/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@lingui+conf@5.3.1_typescript@5.8.3/node_modules/@lingui/conf/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_chrome_stable_linux.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_chrome_beta_linux.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_dev_linux.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_chrome_stable_mac.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_beta_mac.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_dev_mac.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_stable_linux.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_beta_linux.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_chrome_beta_mac.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/bin/reinstall_msedge_stable_mac.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/lib/utilsBundleImpl/xdg-open: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/playwright-core@1.52.0/node_modules/playwright-core/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/test-exclude@7.0.1/node_modules/test-exclude/node_modules/.bin/glob: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier@3.2.5/node_modules/prettier/bin/prettier.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/jsesc@3.1.0/node_modules/jsesc/bin/jsesc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/babel-plugin-macros@3.1.0/node_modules/babel-plugin-macros/node_modules/.bin/resolve: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@eslint-community+eslint-utils@4.7.0_eslint@9.26.0_jiti@2.5.1_/node_modules/@eslint-community/eslint-utils/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/resolve@1.22.10/node_modules/resolve/bin/resolve: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint@9.26.0_jiti@2.5.1/node_modules/eslint/bin/eslint.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint@9.26.0_jiti@2.5.1/node_modules/eslint/node_modules/.bin/jiti: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/lunr@2.3.9/node_modules/lunr/build/release.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/bash"
+node_modules/.pnpm/@playwright+test@1.52.0/node_modules/@playwright/test/node_modules/.bin/playwright: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@playwright+test@1.52.0/node_modules/@playwright/test/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@6.21.0_@typescript-eslint+parser@6.21.0_eslint@8.57.1__568544a48dea19c14ce8955143cbe955/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/semver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@6.21.0_@typescript-eslint+parser@6.21.0_eslint@8.57.1__568544a48dea19c14ce8955143cbe955/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@6.21.0_@typescript-eslint+parser@6.21.0_eslint@8.57.1__568544a48dea19c14ce8955143cbe955/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@typescript-eslint+eslint-plugin@6.21.0_@typescript-eslint+parser@6.21.0_eslint@8.57.1__568544a48dea19c14ce8955143cbe955/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss@8.4.47/node_modules/postcss/node_modules/.bin/nanoid: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsconfck@3.0.2_typescript@5.8.3/node_modules/tsconfck/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsconfck@3.0.2_typescript@5.8.3/node_modules/tsconfck/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/tsconfck@3.0.2_typescript@5.8.3/node_modules/tsconfck/bin/tsconfck.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/rimraf@2.7.1/node_modules/rimraf/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/prettier@3.5.3/node_modules/prettier/bin/prettier.cjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@babel+parser@7.28.3/node_modules/@babel/parser/bin/babel-parser.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/rollup-plugin-dts@6.2.3_rollup@3.29.5_typescript@5.8.3/node_modules/rollup-plugin-dts/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rollup-plugin-dts@6.2.3_rollup@3.29.5_typescript@5.8.3/node_modules/rollup-plugin-dts/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/rollup-plugin-dts@6.2.3_rollup@3.29.5_typescript@5.8.3/node_modules/rollup-plugin-dts/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/esbuild@0.24.2/node_modules/esbuild/bin/esbuild: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@pandacss+node@0.46.1_jsdom@25.0.1_typescript@5.8.3/node_modules/@pandacss/node/node_modules/.bin/tsconfck: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@pandacss+node@0.46.1_jsdom@25.0.1_typescript@5.8.3/node_modules/@pandacss/node/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@pandacss+node@0.46.1_jsdom@25.0.1_typescript@5.8.3/node_modules/@pandacss/node/node_modules/.bin/prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typescript-eslint@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/typescript-eslint/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typescript-eslint@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/typescript-eslint/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typescript-eslint@8.32.0_eslint@9.26.0_jiti@2.5.1__typescript@5.8.3/node_modules/typescript-eslint/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@surma+rollup-plugin-off-main-thread@2.2.3/node_modules/@surma/rollup-plugin-off-main-thread/node_modules/.bin/json5: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@surma+rollup-plugin-off-main-thread@2.2.3/node_modules/@surma/rollup-plugin-off-main-thread/node_modules/.bin/ejs: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@pandacss+dev@0.46.1_jsdom@25.0.1_typescript@5.8.3/node_modules/@pandacss/dev/bin.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/cssesc@3.0.0/node_modules/cssesc/bin/cssesc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/eslint-plugin-prettier@5.4.0_eslint-config-prettier@8.10.0_eslint@9.26.0_jiti@2.5.1___e_07721f826f6fa8ae01d2c8e76a5e25a2/node_modules/eslint-plugin-prettier/node_modules/.bin/eslint: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-plugin-prettier@5.4.0_eslint-config-prettier@8.10.0_eslint@9.26.0_jiti@2.5.1___e_07721f826f6fa8ae01d2c8e76a5e25a2/node_modules/eslint-plugin-prettier/node_modules/.bin/eslint-config-prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/eslint-plugin-prettier@5.4.0_eslint-config-prettier@8.10.0_eslint@9.26.0_jiti@2.5.1___e_07721f826f6fa8ae01d2c8e76a5e25a2/node_modules/eslint-plugin-prettier/node_modules/.bin/prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/@rollup+plugin-babel@5.3.1_@babel+core@7.27.1_@types+babel__core@7.20.5_rollup@2.79.2/node_modules/@rollup/plugin-babel/node_modules/.bin/rollup: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/terser@5.43.1/node_modules/terser/bin/uglifyjs: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/terser@5.43.1/node_modules/terser/bin/terser: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/terser@5.43.1/node_modules/terser/node_modules/.bin/acorn: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/browserslist@4.23.3/node_modules/browserslist/node_modules/.bin/update-browserslist-db: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/browserslist@4.23.3/node_modules/browserslist/cli.js: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/@types+babel__template@7.4.4/node_modules/@types/babel__template/node_modules/.bin/parser: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/postcss-minify-params@7.0.4_postcss@8.5.3/node_modules/postcss-minify-params/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier-plugin-organize-imports@4.3.0_prettier@3.5.3_typescript@5.8.3/node_modules/prettier-plugin-organize-imports/node_modules/.bin/tsserver: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier-plugin-organize-imports@4.3.0_prettier@3.5.3_typescript@5.8.3/node_modules/prettier-plugin-organize-imports/node_modules/.bin/prettier: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/prettier-plugin-organize-imports@4.3.0_prettier@3.5.3_typescript@5.8.3/node_modules/prettier-plugin-organize-imports/node_modules/.bin/tsc: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/bin/tsserver: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/bin/tsc: interpreter directive changed from "#!/usr/bin/env node" to "/nix/store/cikdc61gfwvdma6y0p9b5d5d448aqcv6-nodejs-24.12.0/bin/node"
+node_modules/.pnpm/postcss-merge-rules@7.0.6_postcss@8.5.3/node_modules/postcss-merge-rules/node_modules/.bin/browserslist: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+node_modules/.pnpm/vitefu@1.0.6_vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1_/node_modules/vitefu/node_modules/.bin/vite: interpreter directive changed from "#!/bin/sh" to "/nix/store/lw117lsr8d585xs63kx5k233impyrq7q-bash-5.3p3/bin/sh"
+Finished pnpmConfigHook
+configurePhase completed in 58 seconds
+Running phase: buildPhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+
+> stoat-for-web@0.0.14 build:deps /build/source
+> pnpm --filter stoat.js build && pnpm --filter solid-livekit-components build && pnpm --filter @lingui-solid/babel-plugin-lingui-macro build && pnpm --filter @lingui-solid/babel-plugin-extract-messages build && pnpm --filter client lingui:compile
+
+
+> stoat.js@7.3.5 build /build/source/packages/stoat.js
+> tsc
+
+
+> solid-livekit-components@2.9.15-3 build /build/source/packages/solid-livekit-components
+> tsup
+
+package.json: 
+
+{
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "browser": {},
+  "exports": {
+    "solid": {
+      "development": "./dist/dev.jsx",
+      "import": "./dist/index.jsx"
+    },
+    "development": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/dev.js"
+      }
+    },
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "typesVersions": {}
+}
+
+
+[34mCLI[39m Building entry: {"index":"src/index.tsx"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m Building entry: {"index":"src/index.tsx"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m Building entry: {"dev":"src/index.tsx"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m Building entry: {"dev":"src/index.tsx"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v7.3.0
+[34mCLI[39m Using tsup config: /build/source/packages/solid-livekit-components/tsup.config.ts
+[34mCLI[39m tsup v7.3.0
+[34mCLI[39m Using tsup config: /build/source/packages/solid-livekit-components/tsup.config.ts
+[34mCLI[39m tsup v7.3.0
+[34mCLI[39m Using tsup config: /build/source/packages/solid-livekit-components/tsup.config.ts
+[34mCLI[39m tsup v7.3.0
+[34mCLI[39m Using tsup config: /build/source/packages/solid-livekit-components/tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[32mESM[39m [1mdist/index.jsx [22m[32m18.19 KB[39m
+[32mESM[39m ⚡️ Build success in 186ms
+[32mESM[39m [1mdist/dev.jsx [22m[32m18.36 KB[39m
+[32mESM[39m ⚡️ Build success in 183ms
+[32mESM[39m [1mdist/index.js [22m[32m16.30 KB[39m
+[32mESM[39m ⚡️ Build success in 253ms
+[32mESM[39m [1mdist/dev.js [22m[32m16.49 KB[39m
+[32mESM[39m ⚡️ Build success in 261ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1223ms
+[32mDTS[39m [1mdist/index.d.ts [22m[32m67.82 KB[39m
+
+> @lingui-solid/babel-plugin-lingui-macro@5.1.3 build /build/source/packages/js-lingui-solid/packages/babel-plugin-lingui-macro
+> rimraf ./dist && unbuild
+
+[36mℹ[39m Automatically detected entries: [36m[1msrc/index[22m, [1msrc/macro[22m, [1msrc/ast[22m[39m [90m[esm] [cjs] [dts][39m
+[36mℹ[39m [36mBuilding babel-plugin-lingui-macro[39m
+[36mℹ[39m Cleaning dist directory: [36m./dist[39m
+[32m✔[39m [32mBuild succeeded for babel-plugin-lingui-macro[39m
+  [1mdist/macro.cjs[22m (total size: [36m41.5 kB[39m, chunk size: [36m1.64 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/index.cjs[1m (25 kB)[22m[39m
+[90m  └─ dist/shared/babel-plugin-lingui-macro.872807cd.cjs[1m (14.8 kB)[22m[39m
+
+  [1mdist/index.cjs[22m (total size: [36m39.9 kB[39m, chunk size: [36m25 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/shared/babel-plugin-lingui-macro.872807cd.cjs[1m (14.8 kB)[22m[39m
+
+  [1mdist/ast.cjs[22m (total size: [36m15.9 kB[39m, chunk size: [36m1.07 kB[39m, exports: [90mICUMessageFormat, JsMacroName, createMacroJsContext, createMessageDescriptor, createMessageDescriptorFromTokens, createStringObjectProperty, isArgDecorator, isChoiceMethod, isDefineMessage, isI18nMethod, isLinguiIdentifier, processDescriptor, tokenizeArg, tokenizeChoiceComponent, tokenizeExpression, tokenizeNode, tokenizeTemplateLiteral[39m)
+[90m  └─ dist/shared/babel-plugin-lingui-macro.872807cd.cjs[1m (14.8 kB)[22m[39m
+  [1mdist/macro.mjs[22m (total size: [36m39.9 kB[39m, chunk size: [36m1.6 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/index.mjs[1m (24.7 kB)[22m[39m
+[90m  └─ dist/shared/babel-plugin-lingui-macro.bfbb56b7.mjs[1m (13.6 kB)[22m[39m
+
+  [1mdist/index.mjs[22m (total size: [36m38.3 kB[39m, chunk size: [36m24.7 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/shared/babel-plugin-lingui-macro.bfbb56b7.mjs[1m (13.6 kB)[22m[39m
+
+  [1mdist/ast.mjs[22m (total size: [36m14.2 kB[39m, chunk size: [36m564 B[39m, exports: [90mICUMessageFormat, JsMacroName, createMacroJsContext, createMessageDescriptor, createMessageDescriptorFromTokens, createStringObjectProperty, isArgDecorator, isChoiceMethod, isDefineMessage, isI18nMethod, isLinguiIdentifier, processDescriptor, tokenizeArg, tokenizeChoiceComponent, tokenizeExpression, tokenizeNode, tokenizeTemplateLiteral[39m)
+[90m  └─ dist/shared/babel-plugin-lingui-macro.bfbb56b7.mjs[1m (13.6 kB)[22m[39m
+Σ Total dist size (byte size): [36m97.9 kB[39m
+
+
+> @lingui-solid/babel-plugin-extract-messages@5.1.3 build /build/source/packages/js-lingui-solid/packages/babel-plugin-extract-messages
+> rimraf ./dist && unbuild
+
+[36mℹ[39m Automatically detected entries: [36m[1msrc/index[22m, [1msrc/extractor[22m[39m [90m[esm] [cjs] [dts][39m
+[36mℹ[39m [36mBuilding babel-plugin-extract-messages[39m
+[36mℹ[39m Cleaning dist directory: [36m./dist[39m
+[32m✔[39m [32mBuild succeeded for babel-plugin-extract-messages[39m
+  [1mdist/extractor.cjs[22m (total size: [36m11.4 kB[39m, chunk size: [36m3.81 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/index.cjs[1m (7.64 kB)[22m[39m
+
+  [1mdist/index.cjs[22m (total size: [36m7.64 kB[39m, chunk size: [36m7.64 kB[39m, exports: [90mdefault[39m)
+
+  [1mdist/extractor.mjs[22m (total size: [36m11.2 kB[39m, chunk size: [36m3.61 kB[39m, exports: [90mdefault[39m)
+[90m  └─ dist/index.mjs[1m (7.63 kB)[22m[39m
+
+  [1mdist/index.mjs[22m (total size: [36m7.63 kB[39m, chunk size: [36m7.63 kB[39m, exports: [90mdefault[39m)
+
+Σ Total dist size (byte size): [36m193 kB[39m
+
+
+[43m[30m WARN [39m[49m Build is done with some warnings:
+
+- Inlined implicit external source-map
+- Inlined implicit external convert-source-map
+
+
+> client@0.0.0 lingui:compile /build/source/packages/client
+> lingui compile --typescript
+
+Compiling message catalogs…
+Done!
+
+> stoat-for-web@0.0.14 build:web /build/source
+> pnpm --filter client build
+
+
+> client@0.0.0 build /build/source/packages/client
+> npm run setup:assets && vite build
+
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "npm-globalconfig". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "verify-deps-before-run". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "_jsr-registry". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "store-dir". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "recursive". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "platform". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "arch". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "node-linker". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "package-import-method". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown global config "manage-package-manager-versions". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown global config "store-dir". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown global config "package-import-method". This will stop working in the next major version of npm.[39m
+\[1G[0K
+> client@0.0.0 setup:assets
+> node scripts/copyAssets.mjs
+
+\[1G[0KConfigured Stoat assets.
+\[1G[0K[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[2K[1G[2K[1G[2K[1G[2K[1G🐼 [1m[34minfo[39m[22m [90m[hrtime][39m Extracted in [90m(509.42ms)[39m
+
+ishere.jpg referenced in ishere.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[32m✓[39m 133 modules transformed.
+
+[36mPWA v0.20.5[39m
+Building [35msrc/serviceWorker.ts[39m service worker ("[35mes[39m" format)...
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[32m✓[39m 53 modules transformed.
+[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2mdist/[22m[36mserviceWorker.mjs  [39m[1m[2m17.80 kB[22m[1m[22m[2m │ gzip: 6.17 kB[22m[2m │ map: 145.29 kB[22m
+[32m✓ built in 2.41s[39m
+[2K[1G[2K[1G
+[36mPWA v0.20.5[39m
+mode      [35minjectManifest[39m
+format:   [35mes[39m
+precache  [32m5 entries[39m [2m(0.00 KiB)[22m
+files generated
+  [2mdist/serviceWorker.js[22m
+  [2mdist/serviceWorker.js.map[22m
+[33mwarnings
+  One of the glob patterns doesn't match any files. Please remove or fix the following: {
+  "globDirectory": "/build/source/packages/client/dist",
+  "globPattern": "**/*.{js,wasm,css,html}",
+  "globIgnores": [
+    "**/node_modules/**/*",
+    "serviceWorker.js",
+    "serviceWorker.js"
+  ]
+}
+[39m
+[2K[1G[31mx[39m Build failed in 6.56s
+[31merror during build:
+[31m[vite-plugin-pwa:build] [plugin vite-plugin-pwa:build] There was an error during the build:
+  Could not load /build/source/packages/client/styled-system/jsx (imported by src/Interface.tsx): ENOENT: no such file or directory, open '/build/source/packages/client/styled-system/jsx'
+Additionally, handling the error in the 'buildEnd' hook caused the following error:
+  Could not load /build/source/packages/client/styled-system/jsx (imported by src/Interface.tsx): ENOENT: no such file or directory, open '/build/source/packages/client/styled-system/jsx'[31m
+    at getRollupError (file:///build/source/node_modules/.pnpm/rollup@4.40.2/node_modules/rollup/dist/es/shared/parseAst.js:397:41)
+    at file:///build/source/node_modules/.pnpm/rollup@4.40.2/node_modules/rollup/dist/es/shared/node-entry.js:23098:39
+    at async catchUnfinishedHookActions (file:///build/source/node_modules/.pnpm/rollup@4.40.2/node_modules/rollup/dist/es/shared/node-entry.js:22562:16)
+    at async rollupInternal (file:///build/source/node_modules/.pnpm/rollup@4.40.2/node_modules/rollup/dist/es/shared/node-entry.js:23081:5)
+    at async build (file:///build/source/node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65693:14)
+    at async CAC.<anonymous> (file:///build/source/node_modules/.pnpm/vite@5.4.19_@types+node@24.7.1_lightningcss@1.25.1_terser@5.43.1/node_modules/vite/dist/node/cli.js:829:5)[39m
+/build/source/packages/client:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mclient@0.0.0 build: `npm run setup:assets && vite build`[39m
+[31mExit status 1[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
